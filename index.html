@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Basic HTML5 -->
+	<meta charset="utf-8">
+	<meta name="author" content="iBrahemZeyad">
+	<meta name="description" content="Sunset website">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-witdth, initial-scale=1">
+	<link rel="shortcut icon" href="imgs/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- My HTML5 -->
+	<title>Sunset</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+
+
+
+	
+</head>
+
+<body>
+<!-- WEBSITE BODY -->
+		<div id="container">
+            <!-- NavBar -->
+			<nav id="nav">
+				<h1 id="logo">غروب ألشمس</h1>
+				<ul class="nav-all">
+					<li class="nav-item"><a href="#hpic">الصور</a></li>
+                    <li class="nav-item"><a href="#whatisit1">ماهو</a></li>
+                    <li class="nav-item"><a href="#thetime1">التوقيت</a></li>
+                    <li class="nav-item"><a href="#inislam1">في الدين</a></li>
+                        
+				</ul>
+			</nav>
+            <!-- Hint -->
+            <div class="hint">
+                <p id="hpic">ألصور</p>
+            </div>
+            <!-- SlideShow -->
+            <div id="slideshow">
+            <img src="imgs/sunset.jpg">
+            </div>
+            <!-- Hint -->
+            <div class="hint">
+                <p id="whatisit1">ما هو</p>
+            </div>
+            <!-- WhatIsIt -->
+            <div id="whatisit">
+            <p>غروب الشمس هو الوقت الذي تختفي فيه تحت 
+                خط الأفق في جهة الغرب من نصف الكرة الأرضية
+                 المرئي الذي ننتمى اليه إلى غيرالمرئي نتيجةً 
+                لحركة الجرم السماوي. ويختلف الغروب
+                 عن الغسق وهو وقت دخول الظلام حيث يختفي الشفق الأحمر         
+                </p>
+            </div>
+            <!-- Hint -->
+            <div class="hint">
+                <p id="thetime1"> ألتوقيت</p>
+            </div>
+            <!-- TheTime -->
+            <div id="thetime">
+            <p>توقيت وقوع غروب الشمس يختلف مع اختلاف 
+                فترات السنة واختلاف خط عرض الموقع الذي ينظر منه         
+                </p>
+            </div>
+            <!-- Hint -->
+            <div class="hint">
+                <p id="inislam1">في الدين</p>
+            </div>
+            <!-- inIslam -->
+            <div id="inislam">
+                <p>وردت الكلمة بالقرآن بعدة تصاريف – الغروب ومغرب والمغرب 
+                ومغارب وغربت وتغرب وغربية والغربي والمغربين وذلك في سور
+                 عديدة. ففي سورة البقرة وردت (4) مرات في الآيات (115 و 142 
+                و 177 و 258) ومرتين في سورة الكهف في الآيتين (17 و86) 
+                وفي سورة الأعراف في الآية رقم (137) وفي سورة طه في الآية
+                 رقم (130) وفي سورة النور في الآية (35) وفي سورة الشعراء
+                 في الآية رقم (28) وفي سورة القصص في الآية رقم (44) وفي 
+                سورة ق في الآية رقم (39) وفي سورة الرحمن في الآية رقم 
+                (17) وفي سورة المعارج في الآية رقم (40) وفي سورة المزمل 
+                 في الأية رقم 9 
+                </p>
+            </div>
+            <!-- inIslam -->
+            <div id="footer">
+                <p>all copyrights reserved to <a href="https://www.facebook.com/ibrahem.zeyad.3"target="_blank">iBrahemZeyad</a> | 2018/2/14</p>
+            </div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- SCRIPTS -->
+    <script>$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("li").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});</script>
+	<script src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

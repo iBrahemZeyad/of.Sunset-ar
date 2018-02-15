@@ -1,0 +1,105 @@
+#container {
+    
+    width: 100%;
+    margin: 0 auto;
+    
+}
+a {
+    
+    color: white;
+    text-decoration: none;
+}
+#nav {
+    
+    height: 60px;
+    width: 100%;
+    background-color: #36688d;
+    color: white;
+  
+    
+}
+#logo {
+    float: left;
+    line-height: 60px;
+    padding-left: 20px;
+    
+    
+    
+    
+}
+.nav-all .nav-item {
+    float: right;
+    padding: 10px;
+    
+    list-style-type: none;
+    line-height: 40px;
+    
+    
+}.nav-all .nav-item:hover{
+    background-color: #f49f05;
+    
+    
+    
+}
+.hint {
+    text-align: center;
+    color: #f49f05;
+    font-size: 49px;
+    padding: 0px;
+    width: 100%;
+    
+}
+
+
+
+#slideshow {
+    
+    background-color: #f3cd05;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+img {
+
+     width: 100%;
+    height: auto;
+    
+    
+    
+}
+#whatisit {
+    width: 100%;
+    background-color: #f49f05;
+    text-align: center;
+    font-size: 49px;
+    color: white;
+    
+}
+#thetime {
+    background-color: #f18904;
+    text-align: center;
+    font-size: 49px;
+    color: white;
+    width: 100%;
+    
+    
+}
+#inislam {
+    background-color: #c25d05;
+    text-align: center;
+    font-size: 49px;
+    color: white;
+    width: 100%;
+    
+}
+#footer {
+    background-color: #36688d;
+    color: white;
+    text-align: center;
+      height: 60px;
+    width: 100%;
+    font-size: 30px;
+    
+}
